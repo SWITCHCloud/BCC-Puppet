@@ -24,7 +24,7 @@ class user::virtual
 
     @ssh_user { "leinen":
 	       key	    => "AAAAB3NzaC1yc2EAAAABIwAAAIEAwWkB1KjtjR+CCTiupf2ipux6V8tKPTzsNLgf+CMqfAlH6hIi7zNwM6Ut9WnhY6HkuBbOVQJkLSxnBaeJwJUU5DCFs/TXWgj3ubVcuSrvSDRuYYqq5oUOGqu3wWjoCx/uxLVhy4ViSuGk9w1B5SOSTn5BM+7Y1i+5QmD3IC5N9ps=leinen@babar",
-	       uid	    => 1000,
+	       uid	    => 925,
 	       shell	  => "/bin/bash",
 	  }
 
