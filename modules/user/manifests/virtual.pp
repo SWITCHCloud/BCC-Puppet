@@ -18,6 +18,7 @@ class user::virtual
 	         key		      => $key,
 	         type	        => "ssh-rsa",
 	         user	        => $name,
+	         require      => [User[$name]]
 			  }
     }
 
