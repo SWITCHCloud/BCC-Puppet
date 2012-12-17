@@ -3,6 +3,7 @@ node default {
   include sshd
   include user::virtual
   include user::sysadmins
+  include user::root
   include ntp
   include ceph
 }
