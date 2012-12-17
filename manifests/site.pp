@@ -4,6 +4,7 @@ node default {
   include user::virtual
   include user::sysadmins
   include ntp
+  include ceph
 }
 
 ## We want NTP running on the servers for better synchronization.
